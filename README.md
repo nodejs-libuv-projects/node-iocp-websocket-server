@@ -1,22 +1,22 @@
-# 🚀 Node.js WebSocket IOCP Server
+# 🚀 Node.js IOCP WebSocket Server
 
-A high-performance **WebSocket server** using **Node.js, IOCP (I/O Completion Ports), and libuv** to handle multiple concurrent connections efficiently. 
+A high-performance **WebSocket server** built with **Node.js, libuv, and IOCP (I/O Completion Ports)** to efficiently handle multiple concurrent connections.
 
 ## 🔥 Features
-✅ **Handles multiple WebSocket clients simultaneously**  
-✅ **Utilizes IOCP for async I/O operations (Windows)**  
-✅ **Performs CPU-intensive tasks without blocking**  
-✅ **Supports file reading, hashing, and DNS lookups**  
-✅ **Compatible with Replit, GitHub, and cloud deployments**  
+✅ **Handles thousands of WebSocket connections efficiently**  
+✅ **Utilizes IOCP for asynchronous I/O operations (Windows)**  
+✅ **Performs CPU-intensive tasks without blocking the event loop**  
+✅ **Supports WebSocket commands for hashing, file reading, and DNS lookup**  
+✅ **Easily deployable on Replit & cloud platforms**  
 
 ---
 
 ## 📌 Technologies Used
-- **Node.js** (WebSocket, Crypto, FileSystem, DNS)
+- **Node.js** (WebSockets, File System, Crypto, DNS)
 - **ws (WebSocket library)**
 - **libuv (via Node.js async I/O)**
 - **dotenv (Environment variables)**
-- **Express.js (Static file serving)**
+- **Express.js (Serving frontend UI)**
 
 ---
 
